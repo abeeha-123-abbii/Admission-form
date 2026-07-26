@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lab 1:Basic HTML and CSS</h1>
+    <p>This lab is based on the lab assignment on the "Web Programming Step by Step" by Marty Stepp, Jessica Miller, and Victoria Kirst.<br><br>
+    The purpose of this lab is to practice writing basic web pages with HTML and CSS and uploading them to the Web.</p>
+
+    <h3>Lab 1 Resources</h3>
+    <ol>
+        <li>Lecture Slides</li>
+        <li><a href="http://www.w3schools.com/html">http://www.w3schools.com/html</a></li>
+        <li><a href="http://www.w3schools.com/css">http://www.w3schools.com/css</a></li>
+    </ol>
+
+    <h3>Exercises for Today:</h3>
+    <ol>
+        <li><a href="About Me">About Me</a></li>
+        <li><a href="Style Your Page with CSS">Style Your Page with CSS</a></li>
+        <li><a href="Validate Your Page">Validate Your Page</a></li>
+        <li><a href="Upload Your Page to the Web">Upload Your Page to the Web</a></li>
+        <li><a href="Advanced Style Techniques">Advanced Style Techniques</a></li>
+        <li><a href="Favorite Movie">Favorite Movie</a></li>
+        <li><a href="Decrementing ol">Decrementing ol</a></li>
+
+    </ol>
+
+    <h3>Exercise 1: "About Me"</h3>
+    <p>Create a page named aboutme.html that describes you. (You can use DreamWeaver or <br>Notepad++). On your page, include some or all of the following information:</p>
+
+    <p>
+        <ul>
+            <li>
+                Your name
+            </li>
+            <li>
+                A description of yourself in two sentences or less. Emphasize the most important word(s) by putting them in bold.
+            </li>
+            <li>
+                A list of classes you are taking right now at Temple.
+            </li>
+            <li>
+                Your 3 favorite movies, books, or TV shows, in order. Make at least one link to an interesting site about that tv show/movie/book, such as its <a href="https://www.imdb.com/">IMDB</a>page.
+            </li>
+            <li>
+                Two images, one that represents you when you're happy and the other to represent you when you're sad.<br>
+                (These can be any images you like. Consider searching for images on <a href="www.google.com">Google Image Search</a>)
+            </li>
+            <li>
+                Something interesting about one or more of your neighbors (people sitting at computers next to you)
+            </li>
+        </ul>
+    </p>
+    <p>
+        (You may be tempted to spend all 50 of your minutes on this part of the lab. But try to keep<br>
+         the page somewhat short so that you can attempt some of the other exercises.)<br><br>
+
+        To see your page in the web browser,<b> in</b> Firefox, click <b>File, Open File...</b> and browse to your <br>page file to open it.<br><br>
+
+        Write your page using valid XHTML 1.1. Include a link from your page to the W3C XHTML<br> Validator, using the following image and linking to the following site:
+
+        <ul>
+            <li>
+                image: http://www.w3.org/Icons/valid-xhtml11
+            </li>
+            <li>
+                site: http://validator.w3.org/check/referer
+            </li><br>
+            The next task will be to write a stylesheet for your page, so also include a link to the W3C<br> CSS Validator, using the following image and linking to the following site:<br>
+        </ul>
+
+        <ul>
+            <li>image: http://jigsaw.w3.org/css-validator/images/vcss</li>
+            <li>site: http://jigsaw.w3.org/css-validator/check/referer</li> <br>
+        </ul>
+        For example, the following About Me page describes textbook coauthor, Victoria Kirst <br>(between, but not including, the thick black lines):
+    </p>
+    <hr>
+    <h1>About Victoria Krist</h1>
+    <p><span style="font-family: Arial black;">M</span>y name is Victoria and I am <b>jolly , clumsy </b>and<b> four-eyed.</b></p>
+    <hr>
+
+    <h2>My Classes This Quarter</h2>
+    <ul type="square">
+        <li><b> CSE 451-Operating Systems</b></li>
+        <li><b> CSE 471-Computer Design and Organization</b></li>
+        <li> <b>PHYS 121-Physics:Mechanics</b></li>
+        <li><b> CSE 4988-Research w/ Prof.Luis Ceze</b></li>
+    </ul>
+
+    <h2>My Favourite Movies</h2>
+    (I actually don't watch too many movies , so ... here goes!)
+    <ol>
+        <li>The last 30 minutes of Forrest Gump<a ( href="https://www.imdb.com/">IMBD)</a></li>
+        <li>Star Trek Episode V with Zazu(<a href="https://www.imdb.com/">IMBD</a>)</li>
+        <li>Fight Club(not really , but I've seen like 3 movies total so this is my  3rd fave by technicality)(<a href="https://www.imdb.com/">IMBD</a>)</li>
+    </ol>
+    <h2>
+        My Moods
+    </h2>
+    <p style="display: flex;">
+    Happy :<img src="A.jpg" height="200px" , width="300px"> 
+    &emsp;&emsp;
+    Sad :<img src="img4.jpg" height="200px" , width="300px">
+    </p>
+
+    <h2>Fun Facts About My Neighbours</h2>
+    <ul>
+        <li>Sue Smith:<i>Effervescent</i> is a word that describes her.</li>
+        <li>Bill Thompson:Loves playing <i>Yu-Gi-Oh</i>.</li>
+    </ul>
+
+    <hr>
+
+    <h3>Exercide 2:Style Your Page with CSS (roughly 15 minutes)</h3>
+    <p>
+        Create a stylesheet named aboutme-style.css to improve the appearance of your About Me page. Your stylesheet <br>should do the following without any modification to your HTML code:
+
+        <ul>
+            <li>Change the color of at least two elements</li>
+            <li>Change the font properties of at least two elements (such as family, size, weight, style). Here are some<br> standard fonts you may want to use:<br>
+            <span style="font-family: Arial;">Arial</span>,<span style="font-family: Arial Black;"> Arial Black </span>, <span <span style="font-family: Verdana;">Verdana</span>, <span <span style="font-family: Trebuchet MS;">Trebuchet MS </span>,<span <span style="font-family: Georgia;">Georgia</span>,<span <span style="font-family:Tahoma;">Tahoma </span>, <span <span style="font-family:Courier New;">Courier New, Times New Roman
+            <li>Change at least one other thing of your choosing (such as background color, text alignment, etc.)</li>
+        </li>
+        For example, this is Victoria's styled version of her page in Exercise 1 (between, but not including, the thick black lines):
+    </p>
+    <hr>
+
+    <img src="aboutMe (2).png" height="600px" width="900px" style="border: 2px solid black; padding: 10px;">
+
+    <h2>Exercise 3: Validate Your Page and CSS</h2>
+    <p>
+        Next, validate your HTML and CSS code to make sure they match the strict XHTML 1.1 <br>specifications. To run the validators, do the following:
+    <ol>
+        <li>Open <a href="http://validator.w3.org/">http://validator.w3.org/ </a>(for XHTML) or <a href="http://jigsaw.w3.org/css-validator/">http://jigsaw.w3.org/css-validator/ (for CSS)</a></li>
+        <li>Click Browse in the Validate by File Upload section</li>
+        <li>Locate the local file and click "Open"</li>
+        <li>Click "Check"</li>
+        <li>If there are any errors, fix the first one, then repeat steps 1 through 4.</li>
+    </ol>
+    The key thing is to get the green bar saying that your page is valid XHTML. If you see any yellow warnings about being tentatively valid, this is okay. Red errors are not okay.
+    </p>
+
+    <h2>Exercise 4: Upload Your Page to the Web</h2>
+    <p>You can publish your page by uploading your files to the CIS department server cis-linux2.cis.temple.edu. Create a folder "aboutme" in the "~/public_html/" folder with permission 711. All files in "aboutme" folder need permission 644. Verify that you did this successfully by viewing your page in the web browser.</p>
+
+    <h2>Exercise 5 (advanced): Advanced Style Techniques</h2>
+    <p>If you manage to complete the first four exercises before lab time is up, edit your stylesheet to also do the following:
+    
+    <ul>
+        <li>Your hyperlinks should not have an underline by default. When a user hovers over the link, the underline should appear.<br>
+        <i>Hint</i>: The property you are looking for is a type of CSS pseudo-class.</li>
+        <li>Every paragraph should start with a drop-caps that is 1.5 times the size of the normal paragraph font size.<br>
+        <i>Hint </i>: The property you are looking for is a type of CSS pseudo-element.</li>
+    </ul>
+    These are techniques that we have not covered in class, so you will need to use Google or a CSS reference such as <a href="www.w3school.com"></a>W3Schools to figure out how to get this done. Once again, you should be able to make these stylistic changes without modifying your HTML.
+
+    For example: 
+    </p><hr>
+    <p>
+        <b>Links:</b> (hover is not shown)<br>
+        <img src="1.png.png" width="90%" style="border: 1px solid black; padding: 10px;">
+    </p>
+
+    <p>
+        <b>Drop-caps:</b><br>
+        <img src="2.png.png" width="90%" style="border: 1px solid black; padding:10px;">
+    </p>
+    <hr>
+    
+    <h2>Exercise 6 (advanced): Favorite Movie</h2>
+    <p>
+        Choose one of the favorite movies or TV shows you listed and look it up on <a href="https://www.imdb.com/">imdb.com.</a> In your<br> aboutme.html, reproduce some of the content of the IMDB page in a nested list under the chosen<br> movie's bullet.
+        <ul>
+            <li>IMDB contains a lot of information in short topic: → value pairs, such as Genre: Comedy. Information where a word or phrase is associated with some information is a good candidate for an HTML element called a definition list</li>.
+            <li>You may also want to use Google or a reference such as <a href="www.w3school.com">W3Schools</a> for more information about how to use these HTML structures, nested lists, and definition lists.</li>
+        </ul>
+        For example:
+    </p><hr>
+    
+    <div style="border:2px solid black; background-color:rgb(78, 76, 76) ; width: 900px;color:aliceblue";>
+    <h2>My Favourite Movies</h2>
+    (I actually don't watch too many movies , so ... here goes!)
+    <ol>
+        <li>The last 30 minutes of Forrest Gump<a ( href="https://www.imdb.com/">IMBD)</a></li>
+            <span style="color: rgb(236, 139, 20);">Director </span><br>
+            &emsp;&emsp;&emsp;Robert Zemeckis<br>
+            <span style="color: rgb(236, 142, 26);">Genre</span><br>
+            &emsp;&emsp;&emsp;Comedy/Drama/Romance(more)<br>
+            <span style="color: rgb(237, 137, 16);">Tagline</span><br>
+            &emsp;&emsp;&emsp;The World will never be the same once oyu've seen it through the eyes of Forrest Gump.<br>
+            <span style="color: rgb(240, 141, 21);">Plot Outline</span><br>
+            &emsp;&emsp;&emsp;Forrest Gump,while not intelligent , has accidentally been present at many historic moments,but his true love , Jenny , eludes him.(more)
+        <li>Star Trek Episode V with Zazu(<a href="https://www.imdb.com/">IMBD</a>)</li>
+        <li>Fight Club(not really , but I've seen like 3 movies total so this is my  3rd fave by technicality)(<a href="https://www.imdb.com/">IMBD</a>)</li>
+    </ol>
+    </div>
+    <hr>
+
+    <h2>Extra Credit: Exercise 7: Decrementing ol</h2>
+    <p>
+        Modify your About Me page to have your Top 3 movies or tv shows list in decreasing order, starting at 3 and counting downward to 1. The format of the list must look exactly the same as the default format of an ordered list, simply in reverse order. The only change you may make to your HTML is to switch the order of your list items, but otherwise all work must be done by CSS. We aren't going to give you any hints at all; you must figure it out on your own, using the web.<br><br>
+
+        Note:<b> This is very tricky!. </b>Hint: The property you are looking for is counter-increment.<br>
+
+        For example:
+    </p><hr>
+    <div style="border:2px solid black; background-color:rgb(78, 76, 76) ; width: 900px;color:aliceblue";>
+    <h2>My Favourite Movies</h2>
+    (I actually don't watch too many movies , so ... here goes!)
+    <ol reversed>
+        <li>The last 30 minutes of Forrest Gump<a ( href="https://www.imdb.com/">IMBD)</a></li>
+            <span style="color: rgb(236, 139, 20);">Director </span><br>
+            &emsp;&emsp;&emsp;Robert Zemeckis<br>
+            <span style="color: rgb(236, 142, 26);">Genre</span><br>
+            &emsp;&emsp;&emsp;Comedy/Drama/Romance(more)<br>
+            <span style="color: rgb(237, 137, 16);">Tagline</span><br>
+            &emsp;&emsp;&emsp;The World will never be the same once oyu've seen it through the eyes of Forrest Gump.<br>
+            <span style="color: rgb(240, 141, 21);">Plot Outline</span><br>
+            &emsp;&emsp;&emsp;Forrest Gump,while not intelligent , has accidentally been present at many historic moments,but his true love , Jenny , eludes him.(more)
+        <li>Star Trek Episode V with Zazu(<a href="https://www.imdb.com/">IMBD</a>)</li>
+        <li>Fight Club(not really , but I've seen like 3 movies total so this is my  3rd fave by technicality)(<a href="https://www.imdb.com/">IMBD</a>)</li>
+    </ol>
+    </div>
+</body>
